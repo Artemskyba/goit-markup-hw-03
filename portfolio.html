@@ -14,57 +14,65 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo link" href="./index.html"
-          >Web<span class="studio-header">Studio</span></a
-        >
-        <ul class="navigation list">
-          <li>
-            <a class="link headlink" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="link headlink" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="link headlink" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="address list">
-          <li>
-            <a class="link address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container header-flex">
+        <nav class="nav">
+          <a class="logo link" href="./index.html"
+            >Web<span class="studio-header">Studio</span></a
+          >
+          <ul class="list navigation">
+            <li>
+              <a class="link headlink studio-link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="link headlink portfolio-link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="link headlink" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="list address">
+            <li>
+              <a
+                class="link address-link mail-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="products">
-        <h1 hidden>Products</h1>
-        <ul class="filtres-buttons list">
+        <h1 class="visually-hidden">Products</h1>
+        <ul class="list filtres-btns">
           <li>
-            <button class="filtre-button" type="button">All</button>
+            <button class="filtre-btn" type="button">All</button>
           </li>
           <li>
-            <button class="filtre-button" type="button">Web Site</button>
+            <button class="filtre-btn" type="button">Web Site</button>
           </li>
           <li>
-            <button class="filtre-button" type="button">App</button>
+            <button class="filtre-btn" type="button">App</button>
           </li>
           <li>
-            <button class="filtre-button" type="button">Design</button>
+            <button class="filtre-btn" type="button">Design</button>
           </li>
           <li>
-            <button class="filtre-button" type="button">Marketing</button>
+            <button class="filtre-btn" type="button">Marketing</button>
           </li>
         </ul>
-        <ul class="products list">
+        <ul class="list">
           <li>
             <a class="link product-link" href="">
               <img
@@ -176,15 +184,16 @@
         </ul>
       </section>
     </main>
-    <footer class="foot">
-      <a class="logo link" href="./index.html"
-        >Web <span class="studio-foot">Studio</span></a
-      >
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo link footer-logo" href="./index.html"
+          >Web<span class="studio-footer">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
-/
