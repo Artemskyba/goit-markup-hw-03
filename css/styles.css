@@ -208,7 +208,7 @@ font-style: normal;
 }
 
 .features-item {
-margin-right: 24px;
+flex-basis: calc((100%-72)/4);
 }
 
 .features-item:last-child {
@@ -251,8 +251,8 @@ margin-right: 24px;
 padding-bottom: 120px;
 }
 
-.our-products-list {
-    justify-content: space-between;
+.our-products-item {
+    flex-basis: calc((100%-48)/3);
 }
 
 /**-------------OUR TEAM-------------**/
@@ -269,6 +269,7 @@ padding-bottom: 120px;
 
 .teammate {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .teammate-photo {
