@@ -337,7 +337,7 @@ padding-bottom: 120px;
 .filtre-btn:focus {
     background-color: var(--linkaction-color);
     color: #FFFFFF;
-    /* border: 1px solid transparent; */
+    border: 1px solid transparent;
 }
 
 /**-------------PRODUCTS-------------**/
