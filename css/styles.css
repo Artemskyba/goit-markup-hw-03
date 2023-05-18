@@ -27,10 +27,10 @@ img {
 }
 
 .container {
-    width: 1160px;  /*! delete 2 px when delete borders*/
+    width: 1158px;  /*! delete 2 px when delete borders*/
     padding: 0 15px;
     margin: 0 auto;
-    border: 1px solid #404BBF;
+    /* border: 1px solid #404BBF; */
 }
 
 .link {
@@ -211,12 +211,6 @@ font-style: normal;
 flex-basis: calc((100%-72)/4);
 }
 
-.features-item:last-child {
-    margin-right: 0;
-}
-
-
-
 /**-------------TEXT ELEMENTS-------------**/
 
 .section-headline {
@@ -276,18 +270,15 @@ padding-bottom: 120px;
     margin-bottom: 32px;
 }
 
-.teammate-name,
-.teammate-position {
+.teammate-name {
     text-align: center;
 }
 
 .teammate-position {
     padding-bottom: 32px;
+    text-align: center;
 }
 
-.teammate-photo {
-    margin-bottom: 32px;
-}
 /**-------------FOOTER-------------**/
 
 .footer {
@@ -310,7 +301,28 @@ padding-bottom: 120px;
 
 /*!-------------PORTFOLIO-------------**/
 
-/**-------------FILTRE-BUTTONS-------------**/
+/**-------------SECTION-PRODUCTS-------------**/
+
+.section-products {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+/**-------------FILTRE-BTNS-------------**/
+
+.filtre-btns {
+    display: flex;
+    padding-bottom: 72px;
+    justify-content: center;
+}
+
+.filtre-btn-item {
+    margin-right: 24px;
+}
+
+.filtre-btn-item:last-child {
+    margin-right: 0;
+}
 
 .filtre-btn {
     background-color: var(--bg-filtre-button);
@@ -321,6 +333,9 @@ padding-bottom: 120px;
     letter-spacing: 0.04em;
     color: var(--web-color);
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
 
 .filtre-btn:active,
@@ -328,4 +343,21 @@ padding-bottom: 120px;
 .filtre-btn:focus {
     background-color: var(--linkaction-color);
     color: #FFFFFF;
+}
+
+/**-------------PRODUCTS-------------**/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.product-description {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
 }
