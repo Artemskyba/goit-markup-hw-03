@@ -27,9 +27,8 @@ img {
 }
 
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1160px;  /*! delete 2 px when delete borders*/
+    padding: 0 15px;
     margin: 0 auto;
     border: 1px solid #404BBF;
 }
@@ -295,7 +294,7 @@ padding-bottom: 120px;
     padding-bottom: 100px;
 }
 .footer-logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 17.5px;
 }
 
