@@ -186,12 +186,12 @@ font-style: normal;
     padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
+    border:none;
+    border-radius: 4px;
 }
 
 .order-btn:hover,
 .order-btn:focus {
-    font-weight: 600;
-    line-height: 1.18;
     background-color: var(--linkaction-color);
 }
 
